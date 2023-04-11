@@ -46,7 +46,7 @@ req.startup(function(use)
     }
   }
   -- Colorscheme
-  use { 'arzg/vim-colors-xcode' }
+  use { "luisiacc/the-matrix.nvim" }
   -- Coc
   use { 'neoclide/coc.nvim', branch = 'release' }
 end)

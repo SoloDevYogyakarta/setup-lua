@@ -10,7 +10,7 @@ local cmd = vim.cmd
 
 cmd([[
   set termguicolors
-  colorscheme xcodelight
+  colorscheme thematrix
 ]])
 
 -- Core
