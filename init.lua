@@ -8,10 +8,7 @@
 
 local cmd = vim.cmd
 
-cmd([[
-  set termguicolors
-  colorscheme thematrix
-]])
+cmd([[colorscheme bloop-gruv]])
 
 -- Core
 require('core.setting')

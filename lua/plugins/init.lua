@@ -46,7 +46,11 @@ req.startup(function(use)
     }
   }
   -- Colorscheme
-  use { "luisiacc/the-matrix.nvim" }
+  use {
+    'https://github.com/nocksock/bloop.nvim',
+    requires = { 'https://github.com/rktjmp/lush.nvim' }
+  }
+
   -- Coc
   use { 'neoclide/coc.nvim', branch = 'release' }
 end)
