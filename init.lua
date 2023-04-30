@@ -7,8 +7,14 @@
 -- == == == == == == == == == == == == == == ==
 
 local cmd = vim.cmd
+local o = vim.o
 
-cmd([[colorscheme bloop-gruv]])
+-- o.background = "dark" -- or "light" for light mode
+-- cmd([[colorscheme gruvbox]])
+vim.g.thematrix_function_style = "NONE"
+vim.g.thematrix_keyword_style = "italic"
+vim.g.thematrix_telescope_theme = 1
+cmd([[colorscheme thematrix]])
 
 -- Core
 require('core.setting')
@@ -28,3 +34,22 @@ require('plugins.telescope-cf')
 require('plugins.comment-cf')
 require('plugins.airline-cf')
 require('plugins.tressiter-cf')
+
+
+cmd([[
+  highlight Cursor guifg=green guibg=green
+  highlight iCursor guifg=green guibg=steelblue
+  set guicursor=n-v-c:block-Cursor
+  set guicursor+=i:ver100-iCursor
+  set guicursor+=n-v-c:blinkon0
+  set guicursor+=i:blinkwait10
+]])
+
+vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+  vim.lsp.diagnostic.on_publish_diagnostics, {
+    underline = false,
+    virtual_text = false,
+    signs = true,
+    update_in_insert = false,
+  }
+)

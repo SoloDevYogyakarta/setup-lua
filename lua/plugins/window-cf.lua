@@ -32,4 +32,4 @@ require('windows').setup({
   }
 })
 
-vim.api.nvim_set_keymap('n', '<space>r', '<Cmd>WindowsEqualize<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<space>q', '<Cmd>WindowsEqualize<CR>', { noremap = true, silent = true })

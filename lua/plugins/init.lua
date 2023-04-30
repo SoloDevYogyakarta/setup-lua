@@ -5,6 +5,8 @@ cmd([[packadd packer.nvim]])
 local req = require('packer')
 
 req.startup(function(use)
+  -- Ale
+  use { 'https://github.com/nathanmsmith/nvim-ale-diagnostic' }
   -- Highlight Syntax
   use { 'nvim-treesitter/nvim-treesitter' }
   -- Airline
@@ -47,8 +49,11 @@ req.startup(function(use)
   }
   -- Colorscheme
   use {
-    'https://github.com/nocksock/bloop.nvim',
-    requires = { 'https://github.com/rktjmp/lush.nvim' }
+    "ellisonleao/gruvbox.nvim",
+    priority = 1000,
+    requires = {
+      'https://github.com/luisiacc/the-matrix.nvim'
+    }
   }
 
   -- Coc
