@@ -29,7 +29,8 @@ g.coc_global_extensions = {
   'coc-jedi',
   'coc-lua',
   "coc-python",
-  "coc-pyright"
+  "coc-pyright",
+  "coc-groovy"
 }
 
 cmd([[

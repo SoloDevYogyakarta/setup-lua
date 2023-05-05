@@ -5,6 +5,8 @@ cmd([[packadd packer.nvim]])
 local req = require('packer')
 
 req.startup(function(use)
+  -- Java
+  use { 'mfussenegger/nvim-jdtls' }
   -- Ale
   use { 'https://github.com/nathanmsmith/nvim-ale-diagnostic' }
   -- Highlight Syntax
@@ -52,7 +54,8 @@ req.startup(function(use)
     "ellisonleao/gruvbox.nvim",
     priority = 1000,
     requires = {
-      'https://github.com/luisiacc/the-matrix.nvim'
+      'https://github.com/luisiacc/the-matrix.nvim',
+      'https://github.com/whonore/vim-blueper'
     }
   }
 

@@ -14,7 +14,7 @@ local o = vim.o
 vim.g.thematrix_function_style = "NONE"
 vim.g.thematrix_keyword_style = "italic"
 vim.g.thematrix_telescope_theme = 1
-cmd([[colorscheme thematrix]])
+cmd([[colorscheme blueper]])
 
 -- Core
 require('core.setting')
@@ -37,8 +37,8 @@ require('plugins.tressiter-cf')
 
 
 cmd([[
-  highlight Cursor guifg=green guibg=green
-  highlight iCursor guifg=green guibg=steelblue
+  highlight Cursor guifg=white guibg=white
+  highlight iCursor guifg=white guibg=steelblue
   set guicursor=n-v-c:block-Cursor
   set guicursor+=i:ver100-iCursor
   set guicursor+=n-v-c:blinkon0

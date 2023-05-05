@@ -100,5 +100,13 @@
     ">>": "gitUnstage"
   },
   "python.pythonPath": "python3",
-  "jedi.enable": true
+  "jedi.enable": true,
+  "java.enabled": true,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-11",
+      "path": "/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk"
+    }
+  ],
+  "groovy.java.home": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"
 }
