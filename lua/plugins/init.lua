@@ -55,7 +55,7 @@ req.startup(function(use)
     priority = 1000,
     requires = {
       'https://github.com/luisiacc/the-matrix.nvim',
-      'https://github.com/whonore/vim-blueper'
+      'Mofiqul/vscode.nvim'
     }
   }
 

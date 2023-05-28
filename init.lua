@@ -6,15 +6,13 @@
 -- == == == == == == == == == == == == == == ==
 -- == == == == == == == == == == == == == == ==
 
+
 local cmd = vim.cmd
+local g = vim.g
 local o = vim.o
 
--- o.background = "dark" -- or "light" for light mode
--- cmd([[colorscheme gruvbox]])
-vim.g.thematrix_function_style = "NONE"
-vim.g.thematrix_keyword_style = "italic"
-vim.g.thematrix_telescope_theme = 1
-cmd([[colorscheme blueper]])
+o.background = 'dark'
+cmd([[colorscheme vscode]])
 
 -- Core
 require('core.setting')

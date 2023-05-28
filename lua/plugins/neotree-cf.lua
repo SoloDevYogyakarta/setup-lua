@@ -23,7 +23,7 @@ require('neo-tree').setup({
   enable_git_status = true,
   enable_diagnostics = true,
   window = {
-    width = 26
+    width = 24
   },
   default_component_configs = {
     icon = {
