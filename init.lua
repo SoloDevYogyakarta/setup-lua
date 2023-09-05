@@ -11,8 +11,7 @@ local cmd = vim.cmd
 local g = vim.g
 local o = vim.o
 
-o.background = 'dark'
-cmd([[colorscheme vscode]])
+cmd([[colorscheme thematrix]])
 
 -- Core
 require('core.setting')

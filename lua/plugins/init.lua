@@ -5,6 +5,13 @@ cmd([[packadd packer.nvim]])
 local req = require('packer')
 
 req.startup(function(use)
+  -- Markdown
+  use {
+    'iamcco/markdown-preview.nvim',
+    requires = {
+      'https://github.com/preservim/vim-markdown'
+    }
+  }
   -- Java
   use { 'mfussenegger/nvim-jdtls' }
   -- Ale
@@ -55,7 +62,6 @@ req.startup(function(use)
     priority = 1000,
     requires = {
       'https://github.com/luisiacc/the-matrix.nvim',
-      'Mofiqul/vscode.nvim'
     }
   }
 

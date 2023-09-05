@@ -100,6 +100,7 @@
     ">>": "gitUnstage"
   },
   "python.pythonPath": "python3",
+  "prettier.singleQuote": true,
   "jedi.enable": true,
   "java.enabled": true,
   "java.configuration.runtimes": [
@@ -108,5 +109,7 @@
       "path": "/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk"
     }
   ],
-  "groovy.java.home": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"
+  "groovy.java.home": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home",
+  "angular.enable-strict-mode-prompt": false,
+  "markdown-preview-enhanced.enableScriptExecution": true
 }

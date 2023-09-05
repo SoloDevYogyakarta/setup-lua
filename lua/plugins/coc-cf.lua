@@ -30,7 +30,8 @@ g.coc_global_extensions = {
   'coc-lua',
   "coc-python",
   "coc-pyright",
-  "coc-groovy"
+  "coc-groovy",
+  "coc-markdown-preview-enhanced"
 }
 
 cmd([[
