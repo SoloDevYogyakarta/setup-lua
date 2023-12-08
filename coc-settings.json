@@ -1,4 +1,13 @@
 {
+  "languageserver": {
+    "csharp-ls": {
+      "command": "csharp-ls",
+      "filetypes": ["cs"],
+      "rootPatterns": ["*.csproj", ".vim/", ".git/", ".hg/"]
+    }
+  },
+  "omnisharp.trace.server": "information",
+  "omnisharp.debug.server": true,
   "git.changedDecorator": "*",
   "git.changedSign.text": "+",
   "git.addedSign.text": "+",

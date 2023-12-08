@@ -31,7 +31,8 @@ g.coc_global_extensions = {
   "coc-python",
   "coc-pyright",
   "coc-groovy",
-  "coc-markdown-preview-enhanced"
+  "coc-markdown-preview-enhanced",
+  "coc-omnisharp"
 }
 
 cmd([[
