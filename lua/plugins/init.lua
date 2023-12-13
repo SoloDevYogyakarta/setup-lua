@@ -62,11 +62,10 @@ req.startup(function(use)
   -- Colorscheme
   use {
     "ellisonleao/gruvbox.nvim",
-    'https://github.com/luckydev/150colors',
-    priority = 1000,
     requires = {
-      'https://github.com/luisiacc/the-matrix.nvim',
-      'https://github.com/lunacookies/vim-colors-xcode'
+      "ricardoraposo/gruvbox-minor.nvim",
+      "Skullamortis/forest.nvim",
+      "https://github.com/luisiacc/the-matrix.nvim"
     }
   }
 

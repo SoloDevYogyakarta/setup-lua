@@ -1,13 +1,16 @@
 {
-  "languageserver": {
-    "csharp-ls": {
-      "command": "csharp-ls",
-      "filetypes": ["cs"],
-      "rootPatterns": ["*.csproj", ".vim/", ".git/", ".hg/"]
-    }
-  },
-  "omnisharp.trace.server": "information",
-  "omnisharp.debug.server": true,
+  "ltex.enabled": [
+    "bibtex",
+    "context",
+    "context.tex",
+    "html",
+    "latex",
+    "markdown",
+    "org",
+    "restructuredtext",
+    "rsweave"
+  ],
+  "ltex.language": "auto",
   "git.changedDecorator": "*",
   "git.changedSign.text": "+",
   "git.addedSign.text": "+",
@@ -120,5 +123,6 @@
   ],
   "groovy.java.home": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home",
   "angular.enable-strict-mode-prompt": false,
-  "markdown-preview-enhanced.enableScriptExecution": true
+  "markdown-preview-enhanced.enableScriptExecution": true,
+  "svelte.enable-ts-plugin": false
 }

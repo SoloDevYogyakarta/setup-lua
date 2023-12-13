@@ -11,7 +11,7 @@ local cmd = vim.cmd
 local g = vim.g
 local o = vim.o
 
-cmd([[colorscheme thematrix]])
+cmd([[colorscheme industry]])
 
 -- Core
 require('core.setting')

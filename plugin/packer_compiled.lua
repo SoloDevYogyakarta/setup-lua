@@ -74,11 +74,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["150colors"] = {
-    loaded = true,
-    path = "/Users/kenedy-/.local/share/nvim/site/pack/packer/start/150colors",
-    url = "https://github.com/luckydev/150colors"
-  },
   ["animation.nvim"] = {
     loaded = true,
     path = "/Users/kenedy-/.local/share/nvim/site/pack/packer/start/animation.nvim",
@@ -173,11 +168,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/kenedy-/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["the-matrix.nvim"] = {
-    loaded = true,
-    path = "/Users/kenedy-/.local/share/nvim/site/pack/packer/start/the-matrix.nvim",
-    url = "https://github.com/luisiacc/the-matrix.nvim"
   },
   ["toggleterm.nvim"] = {
     loaded = true,
