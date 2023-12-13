@@ -16,5 +16,5 @@ require('nvim-treesitter.configs').setup({
     enable = true
   },
   -- Highlight the entire buffer all at once
-  ensure_installed = { 'php', "c", "lua", "vim", "tsx", 'json' },
+  ensure_installed = { 'php', "c", "lua", "vim", "tsx", 'json', 'markdown', 'angular', 'proto', 'c_sharp', 'markdown_inline' },
 })
